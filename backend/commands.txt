@@ -1,0 +1,10 @@
+npm install -g typescript
+
+
+mkdir node-app
+cd node-app
+npm init -y
+npx tsc --init
+
+npm install express
+npm i @types/node @types/express
